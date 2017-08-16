@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>A Game of Simon</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	
+  <div id=calculator>
+  <div id="container"></div>
+  <div id="ans"></div>
+  <div id="keys">
+    <button class="btn" value="allclear" onclick="allclear(this)">AC</button>
+    <button class="btn" value="clear" onclick="clr(this)">clear</button>
+    <button class="btn" value="percentage" onclick="percentage(this)">%</button>
+    <button class="btn" value="1" onclick="work(this)">1</button>
+    <button class="btn" value="2" onclick="work(this)">2</button>
+    <button class="btn" value="3" onclick="work(this)">3</button>
+    <button class="btn" value="4" onclick="work(this)">4</button>
+    <button class="btn" value="5" onclick="work(this)">5</button>
+    <button class="btn" value="6" onclick="work(this)">6</button>
+    <button class="btn" value="7" onclick="work(this)">7</button>
+    <button class="btn" value="8" onclick="work(this)">8</button>
+    <button class="btn" value="9" onclick="work(this)">9</button>
+    <button class="btn" value="." onclick="work(this)">.</button>
+    <button class="btn" value="0" onclick="work(this)">0</button>
+    <button class="btn" value="=" onclick="eql(this)">=</button>
+  </div>
+  <div id="side">
+    <button class="btn" value="/" onclick="work(this)">/</button>
+    <button class="btn" value="*" onclick="work(this)">*</button>
+    <button class="btn" value="-" onclick="work(this)">-</button>
+    <button class="btn tall" value="+" onclick="work(this)">+</button>
+  </div>
+</div>
+
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
